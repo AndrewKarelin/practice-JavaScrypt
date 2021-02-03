@@ -27,8 +27,11 @@ const anotherNum = ret();
 console.log(anotherNum);
 
 const logger = function () {
-    console.log("Hello")
+    console.log("Hello");
 };
 logger();
 
-const sum = (a, b) => {return a+b};
+const sum = (a, b) => {
+    console.log("1");
+    return a + b;
+};
